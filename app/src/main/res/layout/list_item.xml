@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- All tour info referenced at https://www.google.com/destination?q=san+antonio&site=search&output=search&dest_mid=/m/0f2w0&sa=X&ved=0ahUKEwjig6KCnZjcAhUBDKwKHTu3BKMQ6tEBCEIoBDAB#dest_mid=/m/0f2w0&tcfs=EhoaGAoKMjAxOC0wNy0yNxIKMjAxOC0wNy0zMQ -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:minHeight="@dimen/list_item_height">
+
+    <ImageView android:id="@+id/image"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height"/>
+
+    <RelativeLayout android:id="@+id/text_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/image">
+
+        <TextView
+            android:id="@+id/attractionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:layout_marginLeft="16dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            tools:text="alamo" />
+
+        <TextView
+            android:id="@+id/descriptionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_below="@+id/attractionTextView"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:layout_marginLeft="16dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"
+            tools:text="fort" />
+
+        <TextView
+            android:id="@+id/locationTextView"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_below="@+id/descriptionTextView"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:layout_marginLeft="16dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"
+            tools:text="fort" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#76ff03</color>
+    <color name="colorPrimaryDark">#32cb00</color>
+    <color name="colorAccent">#b0ff57</color>
+    
+    <!--background color for attractions, etc...-->
+    <color name="category_attractions">#ffee58</color>
+    <color name="category_restaurants">#ff7043</color>
+    <color name="category_parks">@color/colorAccent</color>
+    <color name="category_hotels">#26c6da</color>
+</resources>

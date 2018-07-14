@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">San Antonio</string>
+
+    <!--tabs categories-->
+    <string name="category_attractions">Attractions</string>
+    <string name="category_restaurants">Restaurants</string>
+    <string name="category_parks">Parks</string>
+    <string name="category_hotels">Hotels</string>
+
+    <!--attractions strings-->
+    <string name="alamo">"The Alamo Mission"</string>
+    <string name="alamo_description">Small, shrine-like fortress &amp; monument to Texas history with a museum, artifacts, gardens &amp; more.</string>
+    <string name="alamo_location">300 Alamo Plaza, San Antonio, TX 78205</string>
+
+    <string name="tower">Tower of the Americas</string>
+    <string name="tower_description">The Tower of the Americas is a 750-foot observation tower-restaurant located in the Hemisfair district on the southeastern portion of Downtown San Antonio, Texas.</string>
+    <string name="tower_location">739 E César E. Chávez Blvd, San Antonio, TX 78205</string>
+
+    <string name="river_walk">San Antonio River Walk</string>
+    <string name="river_walk_description">Iconic area with landscaped walkways, bridges, restaurants, bars, hotels, shops &amp; boat tours.</string>
+    <string name="river_walk_location">849 E Commerce St, San Antonio, TX 78205</string>
+
+    <string name="seaworld">SeaWorld San Antonio</string>
+    <string name="seaworld_description">Marine life shows, thrill rides, aquariums &amp; up-close encounters with dolphins, penguins &amp; more.</string>
+    <string name="seaworld_location">10500 Sea World Dr, San Antonio, TX 78251</string>
+
+    <string name="sixflags">Six Flags Fiesta Texas</string>
+    <string name="sixflags_description">Part of an amusement park chain with roller coasters, rides, live shows, a water park, food &amp; beer.</string>
+    <string name="sixflags_lccation">17000 IH-10 West, San Antonio, TX 78257</string>
+
+    <string name="caves">Natural Bridge Caverns</string>
+    <string name="caves_description">Popular spot with subterranean cavern tours &amp; an elevated adventure course, plus a cafe &amp; gift shop.</string>
+    <string name="caves_location">26495 Natural Bridge Caverns Rd, San Antonio, TX 78266</string>
+
+    <string name="zoo">San Antonio Zoo</string>
+    <string name="zoo_description">Sprawling zoo with 750 species (from alligators to zebras), cageless habitats, exhibits &amp; a train.</string>
+    <string name="zoo_location">3903 N St Mary\'s St, San Antonio, TX 78212</string>
+
+    <string name="museum">Witte Museum</string>
+    <string name="museum_description">Touring &amp; long-term exhibits about natural history, art and Texas heritage, plus a Science Treehouse.</string>
+    <string name="museum_location">3801 Broadway St, San Antonio, TX 78209</string>
+
+    <string name="shops">La Villita</string>
+    <string name="shops_description">Square-block enclave of art galleries &amp; shops on the National Registry of Historic Districts.</string>
+    <string name="shops_location">418 Villita St #9, San Antonio, TX 78205</string>
+
+    <string name="church">Cathedral of San Fernando</string>
+    <string name="church_description">Historic 1738 church once occupied by General Santa Ana &amp; the site of hero Jim Bowie\'s wedding.</string>
+    <string name="church_location">115 Main Plaza, San Antonio, TX 78205</string>
+
+    <!--restaurants strings-->
+    <string name="rosarios">Rosario\'s</string>
+    <string name="rosarios_description">Lively local chain serving classic &amp; creative Mexican dishes, plus cocktails, in a trendy setting.</string>
+    <string name="rosarios_location">910 S Alamo St, San Antonio, TX 78205</string>
+
+    <string name="palm">The Palm San Antonio</string>
+    <string name="palm_description">Storied chain serving high-end steakhouse fare, seafood &amp; diverse wines in clubby surrounds.</string>
+    <string name="palm_location">233 E Houston St, San Antonio, TX 78205</string>
+
+    <string name="bella">Bella On the River</string>
+    <string name="bella_description">Intimate destination featuring Mediterranean fare, steaks, wine &amp; outdoor dining in comfy digs.</string>
+    <string name="bella_location">106 River Walk St, San Antonio, TX 78205</string>
+
+    <string name="chart">Chart House</string>
+    <string name="chart_description">High-end chain eatery serving seafood &amp; steakhouse fare in a classy setting with view.</string>
+    <string name="chart_location">739 E César E. Chávez Blvd, San Antonio, TX 78205</string>
+
+    <string name="silo">Silo Restaurant</string>
+    <string name="silo_description">Elevated bistro with inspired New American fare, wine &amp; brunch, plus a bar scene on the lower level.</string>
+    <string name="silo_location">1133 Austin Hwy, San Antonio, TX 78209</string>
+
+    <string name="tycoon">Tycoon Flats Restaurant</string>
+    <string name="tycoon_description">Kid-friendly burger joint &amp; beer garden with Tex-Mex grub, a full bar, craft brews &amp; live music.</string>
+    <string name="tycoon_location">2926 N St Mary\'s St, San Antonio, TX 78212</string>
+
+    <!--parks strings-->
+    <string name="brackenridge">Brackenridge Park</string>
+    <string name="brackenridge_description">Brackenridge Park is a 343-acre public park in San Antonio, Texas, USA, on the city\'s Broadway Corridor just north of downtown San Antonio</string>
+    <string name="brackenridge_location">3700 N St Mary\'s St, San Antonio, TX 78212</string>
+
+    <string name="schnabel">O. P. Schnabel Park</string>
+    <string name="schnabel_description">O. P. Schnabel Park is a 202-acre city park in the City of San Antonio, Texas. The park includes buildings for the YMCA program, ball fields, a basketball court, &amp; several trails</string>
+    <string name="schnabel_location">9606 Bandera Rd, San Antonio, TX 78250</string>
+
+    <string name="denman">Denman Estate Park</string>
+    <string name="denman_description">Tree-covered park known for its authentic Korean pavilion plus a walking trail &amp; pond.</string>
+    <string name="denman_location">7735 Mockingbird Ln, San Antonio, TX 78229</string>
+
+    <string name="mission">Mission County Park</string>
+    <string name="mission_description">Park offering trails along the river, a playground, performance pavilions &amp; sports fields.</string>
+    <string name="mission_location">6030 Padre Dr, San Antonio, TX 78214</string>
+
+    <string name="lions">South Side Lions Park East</string>
+    <string name="lions_description">A 600-acre recreation area with a community center, a lake, a seasonal pool, sports fields &amp; trails.</string>
+    <string name="lions_location">4600 Pecan Valley Dr, San Antonio, TX 78223</string>
+
+    <string name="lady">Lady Bird Johnson Park</string>
+    <string name="lady_description">77-acres with a softball complex, basketball court &amp; a skate park plus a seasonal outdoor pool.</string>
+    <string name="lady_location">10700 Nacogdoches Rd, San Antonio, TX 78217</string>
+
+    <!--hotels strings-->
+    <string name="wyndham">Wyndham San Antonio Riverwalk</string>
+    <string name="wyndham_description">High-rise lodging with a rooftop pool &amp; a hot tub, plus a refined bar/grill.</string>
+    <string name="wyndham_location">111 E Pecan St, San Antonio, TX 78205</string>
+
+    <string name="marriott">Marriott Plaza San Antonio</string>
+    <string name="marriott_description">Upscale hotel with contemporary dining, plus tropical gardens, an outdoor pool &amp; a fitness center.</string>
+    <string name="marriott_location">555 S Alamo St, San Antonio, TX 78205</string>
+
+    <string name="westin">The Westin Riverwalk, San Antonio</string>
+    <string name="westin_description">Refined hotel on the River Walk, plus an Italian restaurant, a cafe, a spa &amp; an outdoor pool.</string>
+    <string name="westin_location">420 W Market St, San Antonio, TX 78205</string>
+
+    <string name="hyatt">Hyatt Place San Antonio/Riverwalk</string>
+    <string name="hyatt_description">Urban rooms with 42-inch flat-screens &amp; minifridges, plus an outdoor pool, a restaurant &amp; a bar.</string>
+    <string name="hyatt_location">601 S St Mary\'s St, San Antonio, TX 78205</string>
+
+    <string name="drury">Drury Plaza Hotel San Antonio Riverwalk</string>
+    <string name="drury_description">Classic lodging with free WiFi, breakfast &amp; an evening happy hour, plus 2 pools &amp; a fitness center.</string>
+    <string name="drury_location">105 S St Mary\'s St, San Antonio, TX 78205</string>
+
+    <string name="indigo">Hotel Indigo San Antonio-Riverwalk</string>
+    <string name="indigo_description">Modern rooms &amp; suites, some with water views, plus an outdoor pool, a restaurant &amp; a serene terrace.</string>
+    <string name="indigo_location">830 N St Mary\'s St, San Antonio, TX 78205</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
