@@ -28,16 +28,16 @@ public class AttractionsFragment extends Fragment {
         final ArrayList<Tour> tours = new ArrayList<Tour>();
 
         // add elements to array list
-        tours.add(new Tour(R.drawable.the_alamo, R.string.alamo, R.string.alamo_description, R.string.alamo_location));
-        tours.add(new Tour(R.drawable.tower, R.string.tower, R.string.tower_description, R.string.tower_location));
-        tours.add(new Tour(R.drawable.river_walk, R.string.river_walk, R.string.river_walk_description, R.string.river_walk_location));
-        tours.add(new Tour(R.drawable.seaworld, R.string.seaworld, R.string.seaworld_description, R.string.seaworld_location));
-        tours.add(new Tour(R.drawable.sixflags, R.string.sixflags, R.string.sixflags_description, R.string.sixflags_lccation));
-        tours.add(new Tour(R.drawable.caves, R.string.caves, R.string.caves_description, R.string.caves_location));
-        tours.add(new Tour(R.drawable.zoo, R.string.zoo, R.string.zoo_description, R.string.zoo_location));
-        tours.add(new Tour(R.drawable.witt, R.string.museum, R.string.museum_description, R.string.museum_location));
-        tours.add(new Tour(R.drawable.la_villita, R.string.shops, R.string.shops_description, R.string.shops_location));
-        tours.add(new Tour(R.drawable.cathedral, R.string.church, R.string.church_description, R.string.church_location));
+        tours.add(new Tour(R.drawable.the_alamo, getString(R.string.alamo), getString(R.string.alamo_description), getString(R.string.alamo_location)));
+        tours.add(new Tour(R.drawable.tower, getString(R.string.tower), getString(R.string.tower_description), getString(R.string.tower_location)));
+        tours.add(new Tour(R.drawable.river_walk, getString(R.string.river_walk), getString(R.string.river_walk_description), getString(R.string.river_walk_location)));
+        tours.add(new Tour(R.drawable.seaworld, getString(R.string.seaworld), getString(R.string.seaworld_description), getString(R.string.seaworld_location)));
+        tours.add(new Tour(R.drawable.sixflags, getString(R.string.sixflags), getString(R.string.sixflags_description), getString(R.string.sixflags_lccation)));
+        tours.add(new Tour(R.drawable.caves, getString(R.string.caves), getString(R.string.caves_description), getString(R.string.caves_location)));
+        tours.add(new Tour(R.drawable.zoo, getString(R.string.zoo), getString(R.string.zoo_description), getString(R.string.zoo_location)));
+        tours.add(new Tour(R.drawable.witt, getString(R.string.museum), getString(R.string.museum_description), getString(R.string.museum_location)));
+        tours.add(new Tour(R.drawable.la_villita, getString(R.string.shops), getString(R.string.shops_description), getString(R.string.shops_location)));
+        tours.add(new Tour(R.drawable.cathedral, getString(R.string.church), getString(R.string.church_description), getString(R.string.church_location)));
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.

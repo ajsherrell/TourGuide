@@ -24,12 +24,12 @@ public class ParksFragment extends Fragment {
         final ArrayList<Tour> tours = new ArrayList<Tour>();
 
         // add elements to array list
-        tours.add(new Tour(R.string.brackenridge, R.string.brackenridge_description, R.string.brackenridge_location));
-        tours.add(new Tour(R.string.schnabel, R.string.schnabel_description, R.string.schnabel_location));
-        tours.add(new Tour(R.string.denman, R.string.denman_description, R.string.denman_location));
-        tours.add(new Tour(R.string.mission, R.string.mission_description, R.string.mission_location));
-        tours.add(new Tour(R.string.lions, R.string.lions_description, R.string.lions_location));
-        tours.add(new Tour(R.string.lady, R.string.lady_description, R.string.lady_location));
+        tours.add(new Tour(getString(R.string.brackenridge), getString(R.string.brackenridge_description), getString(R.string.brackenridge_location)));
+        tours.add(new Tour(getString(R.string.schnabel), getString(R.string.schnabel_description), getString(R.string.schnabel_location)));
+        tours.add(new Tour(getString(R.string.denman), getString(R.string.denman_description), getString(R.string.denman_location)));
+        tours.add(new Tour(getString(R.string.mission), getString(R.string.mission_description), getString(R.string.mission_location)));
+        tours.add(new Tour(getString(R.string.lions), getString(R.string.lions_description), getString(R.string.lions_location)));
+        tours.add(new Tour(getString(R.string.lady), getString(R.string.lady_description), getString(R.string.lady_location)));
 
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The

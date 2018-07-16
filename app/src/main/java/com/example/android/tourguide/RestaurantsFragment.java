@@ -28,12 +28,12 @@ public class RestaurantsFragment extends Fragment {
         final ArrayList<Tour> tours = new ArrayList<Tour>();
 
         // add elements to array list
-        tours.add(new Tour(R.string.rosarios, R.string.rosarios_description, R.string.rosarios_location));
-        tours.add(new Tour(R.string.palm, R.string.palm_description, R.string.palm_location));
-        tours.add(new Tour(R.string.bella, R.string.bella_description, R.string.bella_location));
-        tours.add(new Tour(R.string.chart, R.string.chart_description, R.string.chart_location));
-        tours.add(new Tour(R.string.silo, R.string.silo_description, R.string.silo_location));
-        tours.add(new Tour(R.string.tycoon, R.string.tycoon_description, R.string.tycoon_location));
+        tours.add(new Tour(getString(R.string.rosarios), getString(R.string.rosarios_description), getString(R.string.rosarios_location)));
+        tours.add(new Tour(getString(R.string.palm), getString(R.string.palm_description), getString(R.string.palm_location)));
+        tours.add(new Tour(getString(R.string.bella), getString(R.string.bella_description), getString(R.string.bella_location)));
+        tours.add(new Tour(getString(R.string.chart), getString(R.string.chart_description), getString(R.string.chart_location)));
+        tours.add(new Tour(getString(R.string.silo), getString(R.string.silo_description), getString(R.string.silo_location)));
+        tours.add(new Tour(getString(R.string.tycoon), getString(R.string.tycoon_description), getString(R.string.tycoon_location)));
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.

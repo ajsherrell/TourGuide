@@ -24,12 +24,12 @@ public class HotelsFragment extends Fragment {
         final ArrayList<Tour> tours = new ArrayList<Tour>();
 
         // add elements to array list
-        tours.add(new Tour(R.string.wyndham, R.string.wyndham_description, R.string.wyndham_location));
-        tours.add(new Tour(R.string.marriott, R.string.marriott_description, R.string.marriott_location));
-        tours.add(new Tour(R.string.westin, R.string.westin_description, R.string.westin_location));
-        tours.add(new Tour(R.string.hyatt, R.string.hyatt_description, R.string.hyatt_location));
-        tours.add(new Tour(R.string.drury, R.string.drury_description, R.string.drury_location));
-        tours.add(new Tour(R.string.indigo, R.string.indigo_description, R.string.indigo_location));
+        tours.add(new Tour(getString(R.string.wyndham), getString(R.string.wyndham_description), getString(R.string.wyndham_location)));
+        tours.add(new Tour(getString(R.string.marriott), getString(R.string.marriott_description), getString(R.string.marriott_location)));
+        tours.add(new Tour(getString(R.string.westin), getString(R.string.westin_description), getString(R.string.westin_location)));
+        tours.add(new Tour(getString(R.string.hyatt), getString(R.string.hyatt_description), getString(R.string.hyatt_location)));
+        tours.add(new Tour(getString(R.string.drury), getString(R.string.drury_description), getString(R.string.drury_location)));
+        tours.add(new Tour(getString(R.string.indigo), getString(R.string.indigo_description), getString(R.string.indigo_location)));
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
